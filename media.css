@@ -1,0 +1,121 @@
+@media all and (max-width: 1750px) {
+  .discription .about-us {
+    padding: 51px 300px 51px 110px;
+  }
+  .clients .companies {
+    padding: 0 300px;
+  }
+}
+
+@media all and (max-width: 1700px) {
+  .clients .clients-content {
+    padding: 0 10%;
+  }
+}
+
+@media all and (max-width: 1600px) {
+  .header-background {
+    height: 600px;
+  }
+  .header-content .booking {
+    margin-bottom: 80px;
+  }
+  .man {
+    width: 358px;
+    height: 550px;
+  }
+  .content {
+    padding: 0 105px !important;
+  }
+  .discription .about-us {
+    padding: 51px 105px 51px 110px;
+  }
+  .clients .clients-content {
+    padding: 0 40px;
+  }
+  .clients .wrapper-slider {
+    min-width: 1200px;
+  }
+}
+
+@media all and (max-width: 1350px) {
+  .clients .clients-content {
+    padding: 0 20px;
+  }
+  .clients .wrapper-slider {
+    min-width: 1000px;
+  }
+  .clients .slider {
+    left: 20px;
+  }
+  .clients .slider .slide {
+    margin-right: 20px;
+  }
+  .header-content .booking {
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .man {
+    width: 176px;
+    height: 270px;
+  }
+  .discription {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .discription .side-img-2 {
+    width: 100%;
+    height: 512px;
+  }
+  .discription .about-us {
+    width: 100%;
+    background-position-y: 0;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .intro .intro-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .intro .intro-content div:first-child {
+    margin: 75px 40px -12px 0;
+  }
+  .intro .intro-content .side-img {
+    margin-bottom: 40px;
+  }
+  .products iframe {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .products .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 40px 0 0 0;
+  }
+  .products .services .service {
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
